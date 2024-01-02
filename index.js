@@ -3,7 +3,7 @@ import { humanizedDateTime } from '../../../RossAscends-mods.js';
 import { getApiUrl, extension_settings, getContext, doExtrasFetch } from '../../../extensions.js';
 import { CHARACTERS_PER_TOKEN_RATIO } from '../../../tokenizers.js';
 import { getFileText, onlyUnique, splitRecursive } from '../../../utils.js';
-export { MODULE_NAME };
+export { MODULE_NAME, addMessages, onPurgeClick };
 
 const MODULE_NAME = 'chromadb';
 const dbStore = localforage.createInstance({ name: 'SillyTavern_ChromaDB' });
