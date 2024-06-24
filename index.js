@@ -910,7 +910,8 @@ jQuery(async () => {
         <form><input id="chromadb_import_file" type="file" accept="application/json" hidden></form>
     </div>`;
 
-    $('#extensions_settings2').append(settingsHtml);
+    const getContainer = () => $(document.getElementById('chromadb_container') ?? document.getElementById('extensions_settings2'));
+    getContainer().append(settingsHtml);
     $('#chromadb_strategy').on('change', onStrategyChange);
     $('#chromadb_recall_strategy').on('change', onRecallStrategyChange);
     $('#chromadb_sort_strategy').on('change', onSortStrategyChange);
