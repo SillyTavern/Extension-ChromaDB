@@ -1,3 +1,5 @@
+# THIS EXTENSION IS NO LONGER MAINTAINED AND NOT RECOMMENDED TO USE. PLEASE SEEK ALTERNATIVES
+
 # Smart Context - Extension-ChromaDB
 Adds an alternative vector storage using ChromaDB. Requires an Extras API chromadb module.
 
