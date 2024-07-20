@@ -1,5 +1,5 @@
 {
-    "display_name": "Smart Context",
+    "display_name": "(OBSOLETE) Smart Context",
     "loading_order": 11,
     "requires": [
         "chromadb"
